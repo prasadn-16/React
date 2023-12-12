@@ -1,0 +1,26 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is react by Prasad",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasadn-16/React.git"
+  },
+  "keywords": [
+    "react",
+    "learning"
+  ],
+  "author": "Prasad N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasadn-16/React/issues"
+  },
+  "homepage": "https://github.com/prasadn-16/React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
