@@ -21,3 +21,4 @@ Author: Prasad Nagthane
 ->Gives us better error suggestions - Better error handling
 ->It also gives us a way to host app on https
 ->Tree shaking , supposer we have 100s of functions in our code and we are using few of them then parcel will remove unused code for us it will tree shake our file
+->Different dev and production bundles because production build takes little bit time than build for dev some optimization are more on production and less on dev build
