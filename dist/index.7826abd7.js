@@ -2982,9 +2982,15 @@ const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 lineNumber: 12,
                 columnNumber: 5
             }, undefined),
+            HeadingJSX(),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingJSX, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 13,
+                lineNumber: 14,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingJSX, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 15,
                 columnNumber: 5
             }, undefined)
         ]
@@ -2997,7 +3003,7 @@ _c1 = HeadingComponent;
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 17,
+    lineNumber: 19,
     columnNumber: 13
 }, undefined));
 var _c, _c1;

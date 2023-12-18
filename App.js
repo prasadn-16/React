@@ -10,6 +10,8 @@ const HeadingComponent = () => (
     {elem}
 
     <h1 className="heading">Hi Prasad i came from functional component</h1>
+    {HeadingJSX()}
+    <HeadingJSX></HeadingJSX>
     <HeadingJSX />
   </div>
 );
