@@ -2948,16 +2948,61 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
-const headingJSX = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    id: "heading",
-    children: "Hello Prasad JSX"
+const elem = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+    id: "element"
+}, "I am react element");
+const elemJSX = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+    children: "Hello this is react Element from JSX"
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 4,
-    columnNumber: 20
+    lineNumber: 5,
+    columnNumber: 17
 }, undefined);
+const HeadingJSX = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+        id: "heading",
+        children: [
+            "Hello Prasad JSX ",
+            elemJSX
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 6,
+        columnNumber: 26
+    }, undefined);
+_c = HeadingJSX;
+const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "container",
+        children: [
+            elem,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "heading",
+                children: "Hi Prasad i came from functional component"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 12,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingJSX, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 13,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 9,
+        columnNumber: 3
+    }, undefined);
+_c1 = HeadingComponent;
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
-root.render(headingJSX);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 17,
+    columnNumber: 13
+}, undefined));
+var _c, _c1;
+$RefreshReg$(_c, "HeadingJSX");
+$RefreshReg$(_c1, "HeadingComponent");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
